@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &5988096
 GameObject:
@@ -631,11 +630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -652,11 +647,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &39798526
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -865,11 +856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 1
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -886,11 +873,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &86715743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1063,6 +1046,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: .999999821
       objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 1f8b7346fbf04e8439ef667b24587358, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f8b7346fbf04e8439ef667b24587358, type: 2}
   m_RootGameObject: {fileID: 2017484815}
@@ -1111,7 +1098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9cfdc6c389e2742aa40f991195d828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eye: 1
 --- !u!124 &89293082
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1448,11 +1434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -1469,11 +1451,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &129453178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1948,8 +1926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1578549c7fcc4f6fa1b063992091672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  updateEarly: 0
 --- !u!1 &178216077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,11 +2853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -2898,11 +2870,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &292810935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2970,11 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -2991,11 +2955,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &298155175
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3972,11 +3932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -3993,11 +3949,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &395312986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4148,16 +4100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db6421691659684d915086e04c493c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  add_rotation_gameobject: 0
-  rotation_gameobject: {fileID: 0}
-  emulateMouseInEditor: 1
-  axes: 0
-  nogyrotexture: {fileID: 2800000, guid: 286000da31c179247a31fdf256605ee2, type: 3}
-  cameraleft: {fileID: 647555285}
-  cameraright: {fileID: 1650778496}
-  zoom: .075000003
-  znear: .00999999978
-  zfar: 10000
 --- !u!1 &412966847
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,11 +4488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -4567,11 +4505,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &439062123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4666,11 +4600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -4687,11 +4617,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &447048738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5794,11 +5720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -5815,11 +5737,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &558364189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6088,11 +6006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1243955591}
@@ -6109,11 +6023,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &579687235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6346,11 +6256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -6367,11 +6273,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &598224501
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6559,11 +6461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 1
   tooltipGameObject: {fileID: 1200756055}
@@ -6580,11 +6478,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &619454218
 GameObject:
   m_ObjectHideFlags: 0
@@ -6698,11 +6592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -6719,11 +6609,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &623574414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7101,11 +6987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1102013750}
@@ -7122,11 +7004,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &660989492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7183,11 +7061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -7204,11 +7078,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &666162400
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7344,11 +7214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -7365,11 +7231,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &678058751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7689,11 +7551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 583953642}
@@ -7710,11 +7568,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &694891618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7865,11 +7719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -7886,11 +7736,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &699545661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8067,11 +7913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -8088,11 +7930,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &747154646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9584,11 +9422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -9605,11 +9439,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &789028491
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9744,11 +9574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 1
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -9765,11 +9591,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &798974644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9960,11 +9782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -9981,11 +9799,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &828128669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10419,11 +10233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1495625084}
@@ -10440,11 +10250,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &877194248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10603,11 +10409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -10624,11 +10426,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &885072843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10870,11 +10668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1173691223}
@@ -10891,11 +10685,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &912730642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11182,11 +10972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -11203,11 +10989,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &926114105
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11761,11 +11543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -11782,11 +11560,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &945738685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12020,11 +11794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7942de3910034fa21a8c5b3e54c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorOnHover:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  colorOnHover: {r: 1, g: 0, b: 0, a: 1}
   rayLength: 2
   timeOnButton: 0
   onButton: 0
@@ -12219,7 +11989,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 2be44934dd62ba741977aa7da774f243, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2be44934dd62ba741977aa7da774f243, type: 2}
@@ -12329,11 +12099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 1
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -12350,11 +12116,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &995690048
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12494,11 +12256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -12515,11 +12273,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &997472531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12687,11 +12441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -12708,11 +12458,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &998924512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12904,8 +12650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1842d86d69a644a109b06ba5a5935819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  segments: 16
-  shape: 0
 --- !u!114 &1008153170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12918,15 +12662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6788e8e1b3f7447db6657ef0959d3ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directRender: 1
-  stereoMultiplier: .209999993
-  matchMonoFOV: 0
-  centerOfInterest: {fileID: 0}
-  radiusOfInterest: 0
-  checkStereoComfort: 1
-  screenParallax: 0
-  stereoPaddingX: .100000001
-  stereoPaddingY: .100000001
 --- !u!81 &1008153171
 AudioListener:
   m_ObjectHideFlags: 0
@@ -13282,11 +13017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 1
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -13303,11 +13034,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1033650887
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14432,11 +14159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -14453,11 +14176,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1142966579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14901,11 +14620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -14922,11 +14637,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1180643214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16265,11 +15976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 1
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -16286,11 +15993,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1196889175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17025,11 +16728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 1
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -17046,11 +16745,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1260017940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17232,11 +16927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -17253,11 +16944,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1273681536
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17877,11 +17564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -17898,11 +17581,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1317560579
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18634,7 +18313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9cfdc6c389e2742aa40f991195d828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eye: 0
 --- !u!124 &1366874961
 Behaviour:
   m_ObjectHideFlags: 0
@@ -18728,11 +18406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -18749,11 +18423,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1372012246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18837,11 +18507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 2078148040}
@@ -18851,18 +18517,14 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 1
-  CallFunctionOnActivate: 66617274
+  CallFunctionOnActivate: fart
   GameObjectToActivate: {fileID: 1377009896}
-  CallFunctionOnDeactivate: 756e66617274
+  CallFunctionOnDeactivate: unfart
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1377009899
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19180,11 +18842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1206077377}
@@ -19201,11 +18859,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1392008633
 GameObject:
   m_ObjectHideFlags: 0
@@ -19422,11 +19076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 152070731}
@@ -19443,11 +19093,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1397191999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19525,11 +19171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7942de3910034fa21a8c5b3e54c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorOnHover:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  colorOnHover: {r: 1, g: 0, b: 0, a: 1}
   rayLength: 2
   timeOnButton: 0
   onButton: 0
@@ -19648,11 +19290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7942de3910034fa21a8c5b3e54c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorOnHover:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  colorOnHover: {r: 1, g: 0, b: 0, a: 1}
   rayLength: 2
   timeOnButton: 0
   onButton: 0
@@ -19960,11 +19598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1270036606}
@@ -19981,11 +19615,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1453173364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20698,11 +20328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -20719,11 +20345,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1510463789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21307,11 +20929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 1
   tooltipGameObject: {fileID: 357570443}
@@ -21328,11 +20946,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1558820086
 GameObject:
   m_ObjectHideFlags: 0
@@ -21579,11 +21193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 208355191}
@@ -21600,11 +21210,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1565382639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21736,11 +21342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -21757,11 +21359,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1579849144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22041,11 +21639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -22062,11 +21656,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1602336271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22304,11 +21894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a40b544b8c3553c40852ae7ad35a9343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vrModeEnabled: 1
-  enableAlignmentMarker: 0
-  enableSettingsButton: 1
-  tapIsTrigger: 0
-  autoUntiltHead: 0
 --- !u!1 &1649865601
 GameObject:
   m_ObjectHideFlags: 0
@@ -22405,11 +21990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -22426,11 +22007,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1650512915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22675,16 +22252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db6421691659684d915086e04c493c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  add_rotation_gameobject: 0
-  rotation_gameobject: {fileID: 0}
-  emulateMouseInEditor: 1
-  axes: 0
-  nogyrotexture: {fileID: 2800000, guid: 286000da31c179247a31fdf256605ee2, type: 3}
-  cameraleft: {fileID: 1794904450}
-  cameraright: {fileID: 14132454}
-  zoom: .075000003
-  znear: .00999999978
-  zfar: 10000
 --- !u!1 &1656225597
 GameObject:
   m_ObjectHideFlags: 0
@@ -22818,7 +22385,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400012, guid: 7e1a23d344979114a8ce2154e651fb0c, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1663490351}
-  m_LocalRotation: {x: .144803926, y: .692121208, z: -.144686759, w: .692145765}
+  m_LocalRotation: {x: .144803941, y: .692121267, z: -.144686773, w: .692145824}
   m_LocalPosition: {x: -.3662, y: .833809972, z: -.0107190004}
   m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1.20000005}
   m_Children:
@@ -22839,11 +22406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 2032445674}
@@ -22860,11 +22423,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1663490354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22933,11 +22492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 1
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -22954,11 +22509,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1670994450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23075,11 +22626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 1
   tooltipGameObject: {fileID: 464262345}
@@ -23089,18 +22636,14 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 646f47756e
+  CallFunctionOnActivate: doGun
   GameObjectToActivate: {fileID: 1685324393}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1685324397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23215,11 +22758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -23236,11 +22775,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1694994990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23819,11 +23354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7942de3910034fa21a8c5b3e54c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorOnHover:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
+  colorOnHover: {r: 1, g: 0, b: 0, a: 1}
   rayLength: 2
   timeOnButton: 0
   onButton: 0
@@ -24311,11 +23842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -24332,11 +23859,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1799733241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24431,11 +23954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 906943137}
@@ -24452,11 +23971,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1810291494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24647,11 +24162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -24668,11 +24179,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1838614171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24890,11 +24397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -24911,11 +24414,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1862942044
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25544,11 +25043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -25565,11 +25060,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1908350589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25704,7 +25195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1917429298
 Transform:
   m_ObjectHideFlags: 0
@@ -25753,6 +25244,7 @@ MonoBehaviour:
     maxSidewaysSpeed: 4
     maxBackwardsSpeed: 4
     slopeSpeedMultiplier:
+      serializedVersion: 2
       m_Curve:
       - time: -90
         value: 1
@@ -25906,11 +25398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1154517103}
@@ -25927,11 +25415,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1924087227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26127,11 +25611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .627586365
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .627586365, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -26148,11 +25628,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1929814391
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26233,11 +25709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 434775142}
@@ -26254,11 +25726,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1930414585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26446,11 +25914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -26467,11 +25931,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1938086674
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26553,11 +26013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 833566848}
@@ -26574,11 +26030,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1952784219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26874,11 +26326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -26895,11 +26343,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1982905675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27270,7 +26714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2017484816
 Transform:
   m_ObjectHideFlags: 0
@@ -27334,6 +26778,7 @@ MonoBehaviour:
     maxSidewaysSpeed: 4
     maxBackwardsSpeed: 4
     slopeSpeedMultiplier:
+      serializedVersion: 2
       m_Curve:
       - time: -90
         value: 1
@@ -27737,11 +27182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 1
   tooltipGameObject: {fileID: 535227573}
@@ -27758,11 +27199,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2044599228
 GameObject:
   m_ObjectHideFlags: 0
@@ -28303,11 +27740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 0
   changeColorOnActivate: 0
-  newColorOnHover:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  newColorOnHover: {r: 0, g: 0, b: 0, a: 0}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 1034120679}
@@ -28324,11 +27757,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &2083234302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28798,11 +28227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColorOnHover: 1
   changeColorOnActivate: 1
-  newColorOnHover:
-    r: 0
-    g: .586206913
-    b: 1
-    a: 1
+  newColorOnHover: {r: 0, g: .586206913, b: 1, a: 1}
   rotateObjectWithCamera: 0
   rotateTooltipAndTimerOnHover: 0
   tooltipGameObject: {fileID: 0}
@@ -28819,11 +28244,7 @@ MonoBehaviour:
   debugSendMessage: 0
   canActivate: 0
   isActivated: 0
-  originalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &2133457566
 SpriteRenderer:
   m_ObjectHideFlags: 0

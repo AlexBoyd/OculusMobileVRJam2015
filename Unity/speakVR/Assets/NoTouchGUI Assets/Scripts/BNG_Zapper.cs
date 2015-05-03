@@ -121,7 +121,6 @@ public class BNG_Zapper : MonoBehaviour
         }
         else
         {
-
             print("FARTING");
 
             if(usingSprites) sr.color = defaultColor;
