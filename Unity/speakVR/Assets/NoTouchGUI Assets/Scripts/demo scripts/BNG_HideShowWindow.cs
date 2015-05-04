@@ -10,6 +10,8 @@ public class BNG_HideShowWindow : MonoBehaviour
 
     private bool isOpen;
 
+	public GameObject graph;
+
 
     // Use this for initialization
     void Start()
@@ -61,7 +63,14 @@ public class BNG_HideShowWindow : MonoBehaviour
             windowToShowOrHide.SetActive(false);
         }
 
+		Invoke ("showGraph", 10);
+
     }
+
+	void showGraph()
+	{
+		graph.SetActive (true);
+	}
 
     void openWindow()
     {
