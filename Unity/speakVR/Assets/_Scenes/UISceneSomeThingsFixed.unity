@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &5988096
 GameObject:
@@ -4641,9 +4642,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 439062119}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -6159,9 +6160,9 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 6c657665725570
+  CallFunctionOnActivate: doFlipUp
   GameObjectToActivate: {fileID: 2106652981}
-  CallFunctionOnDeactivate: 6c65766572446f776e
+  CallFunctionOnDeactivate: doFlipDown
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -6409,9 +6410,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 598224498}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -6614,7 +6615,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 646f416d6d6f
+  CallFunctionOnActivate: doAmmo
   GameObjectToActivate: {fileID: 602554492}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -7140,9 +7141,9 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 6c65766572446f776e
+  CallFunctionOnActivate: doFlipDown
   GameObjectToActivate: {fileID: 492418681}
-  CallFunctionOnDeactivate: 6c657665725570
+  CallFunctionOnDeactivate: doFlipUp
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -7263,9 +7264,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 666162396}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -8115,9 +8116,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 747154642}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -10365,7 +10366,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 877194245}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -10719,6 +10720,7 @@ GameObject:
   - 4: {fileID: 912730643}
   - 65: {fileID: 912730642}
   - 114: {fileID: 912730641}
+  - 114: {fileID: 912730644}
   m_Layer: 0
   m_Name: Switch1
   m_TagString: NoTouchButton
@@ -10749,9 +10751,9 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 6c65766572446f776e
+  CallFunctionOnActivate: doFlipUp
   GameObjectToActivate: {fileID: 425846339}
-  CallFunctionOnDeactivate: 6c657665725570
+  CallFunctionOnDeactivate: doFlipDown
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -10784,6 +10786,21 @@ Transform:
   - {fileID: 1358402788}
   m_Father: {fileID: 1437234106}
   m_RootOrder: 5
+--- !u!114 &912730644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912730640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53314ada0f1ed024d9f81b2a472f9c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionUp: 1
+  leverSpeed: 1
+  callbackOnFlipDown: {fileID: 0}
+  callbackOnFlipUp: {fileID: 0}
 --- !u!1 &913588949
 GameObject:
   m_ObjectHideFlags: 0
@@ -13319,6 +13336,10 @@ Prefab:
       propertyPath: CallFunctionOnDeactivate
       value: toggle_autowalk
       objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 2be44934dd62ba741977aa7da774f243, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2be44934dd62ba741977aa7da774f243, type: 2}
   m_RootGameObject: {fileID: 1310440600}
@@ -14156,9 +14177,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1142966576}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -17707,9 +17728,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1317560576}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -18952,7 +18973,7 @@ MonoBehaviour:
   walkButtonVR: {fileID: 1260017937}
   walkButtonCardboardVR: {fileID: 1196889172}
   walkButtonDiveVR: {fileID: 1670994448}
-  walkButtonNonVR: {fileID: 0}
+  walkButtonNonVR: {fileID: 1492270609}
   objectBeingHit: {fileID: 0}
 --- !u!65 &1389536003
 BoxCollider:
@@ -18989,9 +19010,9 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 5365747570547572726574
+  CallFunctionOnActivate: SetupTurret
   GameObjectToActivate: {fileID: 1389536000}
-  CallFunctionOnDeactivate: 5365747570547572726574
+  CallFunctionOnDeactivate: ExitTurret
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -19745,7 +19766,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 2
-  CallFunctionOnActivate: 6a756d70416e645370696e
+  CallFunctionOnActivate: jumpAndSpin
   GameObjectToActivate: {fileID: 1460675070}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -21126,7 +21147,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 646f416d6d6f
+  CallFunctionOnActivate: doAmmo
   GameObjectToActivate: {fileID: 1556861387}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -21390,7 +21411,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 1565382636}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -21539,9 +21560,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1579849142}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -21836,9 +21857,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1602336267}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -22148,7 +22169,7 @@ MonoBehaviour:
   timeToActivate: .5
   timeToDeactivate: .5
   waitTime: .5
-  CallFunctionOnActivate: 45786974547572726574
+  CallFunctionOnActivate: ExitTurret
   GameObjectToActivate: {fileID: 1389536000}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -22566,7 +22587,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400012, guid: 7e1a23d344979114a8ce2154e651fb0c, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1663490351}
-  m_LocalRotation: {x: .144803941, y: .692121267, z: -.144686773, w: .692145824}
+  m_LocalRotation: {x: .144803926, y: .692121208, z: -.144686759, w: .692145765}
   m_LocalPosition: {x: -.3662, y: .833809972, z: -.0107190004}
   m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1.20000005}
   m_Children:
@@ -23000,9 +23021,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1694994987}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -24045,7 +24066,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 1810291491}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -24253,9 +24274,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1838614168}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -24539,9 +24560,9 @@ MonoBehaviour:
   timeToActivate: 0
   timeToDeactivate: 0
   waitTime: .200000003
-  CallFunctionOnActivate: 646f486974
+  CallFunctionOnActivate: doHit
   GameObjectToActivate: {fileID: 1862942041}
-  CallFunctionOnDeactivate: 646f57616974
+  CallFunctionOnDeactivate: doKill
   GameObjectToDeactivate: {fileID: 0}
   debugSendMessage: 0
   canActivate: 0
@@ -25762,7 +25783,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 2
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 1930414582}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -26066,7 +26087,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 2
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 1952784216}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -27257,7 +27278,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 1
   waitTime: 3
-  CallFunctionOnActivate: 646f416d6d6f
+  CallFunctionOnActivate: doAmmo
   GameObjectToActivate: {fileID: 2042844321}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
@@ -27795,7 +27816,7 @@ MonoBehaviour:
   timeToActivate: 1
   timeToDeactivate: 2
   waitTime: 1
-  CallFunctionOnActivate: 646f57696e646f77
+  CallFunctionOnActivate: doWindow
   GameObjectToActivate: {fileID: 2083234299}
   CallFunctionOnDeactivate: 
   GameObjectToDeactivate: {fileID: 0}
